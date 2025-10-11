@@ -19,6 +19,8 @@
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/SunXin121/bing_wallpaper)
 
+部署完成后，KV 中只会有今天的一张壁纸，可以将 urls.txt 中的数据复制到 KV 以获得更多壁纸。
+
 ---
 
 

@@ -52,7 +52,7 @@ export default {
   },
 };
 
-/** 从 KV 取列表（JSON 数组）。兼容旧数据：若发现已带后缀的完整 URL，尝试回退为 base。 */
+/** 从 KV 取列表（JSON 数组）*/
 async function getList(env) {
   const raw = await env.BING_WALL.get(KV_KEY);
   if (!raw) return [];
