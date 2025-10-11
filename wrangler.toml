@@ -1,0 +1,12 @@
+name = "bing-wall"
+main = "src/worker.js"
+compatibility_date = "2025-10-10"
+
+# 定时任务：每天 00:05 UTC 拉取
+[triggers]
+crons = ["5 0 * * *"]
+
+# KV 绑定：Deploy 按钮会自动为你创建并写入 id
+[[kv_namespaces]]
+binding = "BING_WALL"
+id = "REPLACED_BY_DEPLOY"  # 占位；一键部署时会自动替换
